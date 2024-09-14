@@ -1,1 +1,18 @@
+#include <iostream>
+using namespace std;
 
+// this function finds the limits of the short and double data types
+// as well as the size of them
+
+int main() {
+    
+    short shortLimit;
+    double doubleLimit;
+
+    cout << "The size of the short data type is: " << sizeof(shortLimit) << " bytes." << endl;
+    cout << "The size of the double data type is: " << sizeof(doubleLimit) << " bytes." << endl;
+
+    
+
+
+}
